@@ -1,0 +1,14 @@
+what is differece between Trapping rainwater and Container with Most Water 
+
+1) Trapping rainwater 
+
+The trapping rain water problem calculates the total volume of water stored between bars of varying heights, where each bar has a width of 1, after it rains.
+
+2) Container with Most Water
+
+The "Container with Most Water" problem asks to find two vertical lines in an array (representing heights) that, together with the x-axis, form a container holding the maximum water.
+
+Apporach of both problems are differents
+
+
+<!-- Positive Impact Of Social Media and Negative  -->
