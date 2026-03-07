@@ -1,0 +1,30 @@
+Check Palindrome String using Linked List
+
+1) Find Midnode
+2) 2nd half do reverse
+3) Check if 1st half = 2nd half
+
+conditions 
+1) even case (Nodes are even in the Linked List) 
+    We have two pointer 1) slow and 2) fast 
+    Run loop until fast pointer reaches NULL 
+        Basic code understanding == 
+    fast != null;
+    fast.next !=null 
+
+
+Detect cycle using algo named Flyod's cycle finding Algorithm
+
+1) Slow pointer +1
+2) Fast pointer +2
+
+Initialze Slow pointer to head and fast pointer to head
+
+if the pointers slow and fast meet each other at any node again (i.e points to same node) then print cycle detected in Linked list
+
+run while loop until the fast pointer is not reached to null or fast.next is not equal to null
+check if slow pointer is equal to fast pointer 
+
+return true;
+
+else return false;
