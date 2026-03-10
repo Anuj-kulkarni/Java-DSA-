@@ -75,3 +75,6 @@ public class QueueDemo {
         System.out.println("Is Full? " + QueueArray.isFull());
     }
 }
+
+// time complexity of code enqueue is O(1) i.e add
+// time complexity of code dequeue is O(n) i.e remove
