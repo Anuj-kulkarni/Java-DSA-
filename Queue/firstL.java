@@ -13,5 +13,6 @@ public class firstL {
     }
     public static void main(String[] args) {
         String str = "aabccxb"; // o/p must be x
+        
     }
 }
