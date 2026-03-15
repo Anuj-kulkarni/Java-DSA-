@@ -1,0 +1,11 @@
+| Operation Needed                    | Best Data Structure   |
+| ----------------------------------- | --------------------- |
+| Fast searching                      | Hash Table / Set      |
+| Insert & delete in middle           | Linked List           |
+| Last-in first-out (LIFO)            | Stack                 |
+| First-in first-out (FIFO)           | Queue                 |
+| Sorted data / min or max repeatedly | Heap / Priority Queue |
+| Key → Value mapping                 | HashMap / Dictionary  |
+| Hierarchical relationships          | Tree                  |
+| Network connections                 | Graph                 |
+| Random access by index              | Array                 |
