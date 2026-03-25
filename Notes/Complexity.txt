@@ -1,0 +1,63 @@
+Time complexity 
+
+Types of time complexity are big and small.
+
+1) Big time complexity are having shorter amount of range in calculating the time complexity.
+while small time complexity are having bigger amount of range in calculating the time complexity.
+Usually we calculate the time complexity in Big notation only.
+
+
+The time taken by program to process the input from the user is time complexity.
+1) Big O notation denotes the worst case time complexity of the code.
+
+2) Big omega notation denotes the best time complexity of the code.
+The time complexity may go upto worst time complexity.
+
+3) Big Theta notation denotes the average time complexity of the code.
+Upper bond and lower bond meeting point in the graph is Big Theta
+
+2) Common Time complexity
+
+Big O(1) is best time complexity.
+Big O(og n) is worst than O(1)
+Big O(n) is worst than O(log n)
+Big O(n^2) is worst than O(n)
+Big O(2^n) is the worst time complexity ever.(Includes the codes like recusrssion and Backtracking)
+
+Space complexity
+
+The space taken by the program to execute is space complexity.
+The space complexity is combination of the input memory and auxiliary memory taken by the program.
+
+We only use space complexity for auxiliary memory. (For interview)
+
+The priority is given to time complexity only unless space complexity is also mentioned.
+
+Butterfly time complexity and Pyramid time complexity.(HW)
+
+1) Bubble sort has time complexity 
+Best time complexity is O(n^2)
+Worst time complexity is O(n^2)
+
+2) Optimized Bubble sort has time complexity
+Best time complexity is O(n)
+Worst time complexity is O(n^2)
+
+3) Binary search time complexity 
+Best time complexity O(log n)
+Worst time complexity O(n)
+
+**** NOTE ****
+Binary search is better than liner search for larger units of inputs
+*********
+
+1) Time complexity of the recursive algorithms
+    Total Work done = no of call * work done in each cell
+
+2) Space complexity of the recursive algorithms
+    space complexity = max depth * memory in each cell
+
+Time complexity of recurssive code is O(2^n)
+Space complexity of recursive code is O(n)
+
+Time complexity of merge sort is O(nlogn)
